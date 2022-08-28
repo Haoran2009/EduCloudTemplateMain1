@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title> EduCloud </title>
+        <style>
+            .logo {
+                text-align: start;
+            }
+            .navButton {
+                padding: 0px 0px;
+                color: hsl(18, 100%, 95%);
+                text-align: center;
+                display: inline-block;
+                font-size: 26px;
+                cursor: pointer;
+                background-color: rgb(243, 156, 33);
+                border-width: 0px;
+                outline-width: 0px;
+                font-family: Verdana;
+            }
+            .profile {
+                padding: 0px 0px;
+                color: hsl(18, 100%, 95%);
+                text-align: left;
+                display: inline-block;
+                font-size: 26px;
+                cursor: pointer;
+                background-color: rgb(243, 156, 33);
+                border-width: 0px;
+                outline-width: 0px;
+                font-family: Verdana;
+            }
+            .button-group {
+                display: inline-flex;
+                border: 10px solid rgb(243, 156, 33);
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            .profile-group {
+                display: inline-flex;
+                border: 0px solid rgb(243, 156, 33);
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            body {
+                background:url('Mountains-1412683.svg');
+                background-size:cover;
+                background-repeat:no-repeat;
+                margin:0;
+                padding:0;
+                font-family:Arial;
+            }
+            .menu {
+                width:100%;
+                background:rgba(0,0,0,0.5);
+                overflow:auto;
+            }
+            .menu ul {
+                margin:0;
+                padding:0;
+                list-style:none;
+                line-height:70px;
+            }
+            .menu ul li {
+                float:left;
+                width:100%;
+                display:none;
+            }
+            a {
+                text-decoration:none;
+                width:120px;
+                display:block;
+                text-align:center;
+                color:#fff;
+                font-size:14px;
+                text-transform:uppercase;
+                font-weight:bold
+            }
+            .menu ul li a:hover {
+                color:#000;
+                background:#ff0;
+                font-size:26px;
+            }
+            @media (min-width:768px) {
+                menu ul li {
+                    display:block ! important;
+                }
+            }
+            
+        </style>
+        <style>
+
+            </style>
+        <script src="visualizer.js"></script>
+    </head>
+        <body>
+            <script>
+            </script>
+            <noscript>
+                Your browser doesn't support or has disabled Javascript
+            </noscript>
+
+            <nav class="menu">
+                <a class = "toggle-nav" href = "#">&#9776;</a>
+                <ul>
+                    <li><a href = "#"> Home</a></li>
+                </u>
+                <p align = "right">
+                    <img src="EduCloud.svg" align = "left" class = "logo" alt width="300px" alt height="130px">
+                    <p class = "button-group">
+                        <button class = "navButton" style="width:180px;height:80px;" onclick="" type="button">Home</button>
+                        <button class = "navButton" style="width:180px;height:80px;" onclick="" type="button">About</button>
+                        <button class = "navButton" style="width:180px;height:80px;" onclick="" type="button">Assignment</button>
+                        <button class = "navButton" style="width:180px;height:80px;" onclick="" type="button">Credit Shop</button>
+                        <button class = "navButton" style="width:180px;height:80px;" onclick="" type="button">Chart</button>
+                    </p>
+                    <p class = "profile-group">
+                        <button class = "profile" style="width:240px;height:80px;" onclick="" type="button">Welcome, Student</button>
+                        <img src="Profile.svg" style="background-color:rgb(243, 156, 33);" align = "left" width="60px" height="60px">
+                    </p>
+                </p>
+            </nav>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+            <canvas id="myChart" style="width:100%;max-width:1000px"></canvas>
+            <script type = "text/javascript" src = "visualizer.js"></script>
+            <script type = "text/javascript" src = "script.js"></script>
+        </body>
+</html>
